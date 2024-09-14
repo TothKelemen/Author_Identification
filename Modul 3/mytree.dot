@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="nWord_title <= 2.5\nsamples = 2238\nvalue = [1346, 892]\nclass = Ady", fillcolor="#f6d5bc"] ;
+1 [label="q3_nSyll_l <= 9.875\nsamples = 844\nvalue = [756, 88]\nclass = Ady", fillcolor="#e89050"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="mean_nLongS_l <= 4.766\nsamples = 328\nvalue = [267, 61]\nclass = Ady", fillcolor="#eb9e66"] ;
+1 -> 2 ;
+3 [label="samples = 238\nvalue = [211, 27]\nclass = Ady", fillcolor="#e89152"] ;
+2 -> 3 ;
+4 [label="samples = 90\nvalue = [56, 34]\nclass = Ady", fillcolor="#f5ceb1"] ;
+2 -> 4 ;
+5 [label="rate_VERB <= 0.181\nsamples = 516\nvalue = [489, 27]\nclass = Ady", fillcolor="#e68844"] ;
+1 -> 5 ;
+6 [label="samples = 347\nvalue = [339.0, 8.0]\nclass = Ady", fillcolor="#e6843e"] ;
+5 -> 6 ;
+7 [label="samples = 169\nvalue = [150, 19]\nclass = Ady", fillcolor="#e89152"] ;
+5 -> 7 ;
+8 [label="nWord_title <= 3.5\nsamples = 1394\nvalue = [590, 804]\nclass = nem Ady", fillcolor="#cae5f8"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="mean_nSyll_l <= 10.046\nsamples = 1079\nvalue = [318, 761]\nclass = nem Ady", fillcolor="#8cc6f0"] ;
+8 -> 9 ;
+10 [label="samples = 856\nvalue = [173, 683]\nclass = nem Ady", fillcolor="#6bb6ec"] ;
+9 -> 10 ;
+11 [label="samples = 223\nvalue = [145, 78]\nclass = Ady", fillcolor="#f3c5a4"] ;
+9 -> 11 ;
+12 [label="max_nSyll_lg <= 38.5\nsamples = 315\nvalue = [272.0, 43.0]\nclass = Ady", fillcolor="#e99558"] ;
+8 -> 12 ;
+13 [label="samples = 93\nvalue = [66.0, 27.0]\nclass = Ady", fillcolor="#f0b58a"] ;
+12 -> 13 ;
+14 [label="samples = 222\nvalue = [206, 16]\nclass = Ady", fillcolor="#e78b48"] ;
+12 -> 14 ;
+}
